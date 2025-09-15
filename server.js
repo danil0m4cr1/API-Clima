@@ -4,7 +4,7 @@ const cors = require("cors");
 
 const app = express();
 app.use(cors());
-const api_key = "4cd0f3a3dffb3fcdc95f3b1a90030035";
+const api_key = [sua_api_aqui];
 
 app.get("/weather", async (req, res) => {
     const { city, country } = req.query;
